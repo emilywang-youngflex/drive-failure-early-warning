@@ -1,0 +1,13 @@
+error_group,selection_rank,serial_number
+true_positive,1,ZA21C0JJ
+true_positive,2,8CGLBLKG
+true_positive,3,ZLW18EHG
+false_negative,1,S2ZYJ9GGB01081
+false_negative,2,WD-WXQ1AA541HX5
+false_negative,3,8CH384ME
+false_positive,1,Z305BFGM
+false_positive,2,S301JZP8
+false_positive,3,AAG6NTKH
+true_negative,1,ZA1818SG
+true_negative,2,ZL23XSLB
+true_negative,3,ZA13ZS7G
