@@ -250,39 +250,12 @@ drive-failure-early-warning/
 │   ├── 04_drive_level_evaluation.ipynb
 │   ├── 05_error_analysis.ipynb
 │   └── 06_temporal_feature_screening.ipynb
-├── reports/
-│   └── figures/
+│   
 └── sample_outputs/
     ├── drive_level_threshold_summary.csv
     ├── lead_time_summary.csv
     └── matched_workload_summary.csv
 ```
-
-## Running the Project
-
-The repository is being curated from the original experimental notebooks. The public version is intended to reproduce the modeling and evaluation workflow from a cleaned Parquet dataset.
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-On Windows:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Place the cleaned dataset at:
-
-```text
-data/df_cleaned.parquet
-```
-
-Then run the notebooks in numerical order.
 
 ## Limitations
 
@@ -323,11 +296,3 @@ Potential extensions include:
 5. Matched alert workloads can be more meaningful than equal numerical thresholds.
 6. Error analysis can reveal limits in the available information.
 7. A simpler model should be retained when added complexity does not produce a consistent operational advantage.
-
-## Status
-
-```text
-Technical modeling: complete
-Final selected model: Baseline v1
-Current phase: public repository curation and recruiting preparation
-```
