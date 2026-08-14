@@ -28,11 +28,11 @@ The project:
 
 ## Why This Problem Is Difficult
 
-1. **Extreme class imbalance** — Failure observations represent less than 1% of the data, so accuracy alone would be misleading.
-2. **Repeated observations per drive** — Each physical drive appears across many dates. A random row split could place the same drive in both training and validation data, causing leakage.
-3. **Operational evaluation** — A single drive may generate many high-risk rows, but maintenance teams investigate physical drives, not individual rows.
-4. **Warning timing** — A useful alert must occur on or before the recorded failure date. Post-failure alerts do not count as successful early warnings.
-5. **Score comparability** — Different models and folds can produce scores on different scales, making fixed numerical thresholds unreliable across model families.
+1. **Extreme class imbalance**  Failure observations represent less than 1% of the data, so accuracy alone would be misleading.
+2. **Repeated observations per drive**  Each physical drive appears across many dates. A random row split could place the same drive in both training and validation data, causing leakage.
+3. **Operational evaluation**  A single drive may generate many high-risk rows, but maintenance teams investigate physical drives, not individual rows.
+4. **Warning timing**  A useful alert must occur on or before the recorded failure date. Post-failure alerts do not count as successful early warnings.
+5. **Score comparability**  Different models and folds can produce scores on different scales, making fixed numerical thresholds unreliable across model families.
 
 ## Dataset
 
